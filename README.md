@@ -46,12 +46,17 @@ The target variable is `SalePrice`.
    - Read training and test datasets.
    - Performed initial exploration using a custom EDA function.
 
-2. **Missing Value Handling**
+2. **Handling Missing Data**
 
    - Imputed missing values based on feature type and domain knowledge.
    - Verified datasets to ensure no remaining missing values.
 
-3. **Feature Engineering**
+3. **Feature Type Conversion**
+
+   - Transform features to correct data types.
+   - Split all features into three lists: numerical features, low cardinality categorical features and high cardinality categorical features.
+
+4. **Feature Engineering**
 
    - Identified and removed outliers using visual analysis.
    - Log-transformed the target variable to correct skewness.
@@ -61,19 +66,19 @@ The target variable is `SalePrice`.
      - One-hot encoding for low-cardinality features.
      - Frequency encoding for high-cardinality features.
 
-4. **Modeling**
+5. **Modeling**
 
    - Trained multiple regression models: Linear Regression, ElasticNet, Lasso, Ridge, KNN, Decision Tree, Random Forest, Gradient Boosting, XGBoost, and LightGBM.
    - Performed hyperparameter tuning using cross-validation and Optuna-based search.
    - Evaluated models using RMSE.
    - Selected best-performing models based on cross-validation results.
 
-5. **Ensemble Learning**
+6. **Ensemble Learning**
 
    - Combined selected models using a stacking regressor with RidgeCV as the final estimator.
    - Trained the stacking model and generated predictions for the test set.
 
-6. **Submission**
+7. **Submission**
 
    - Applied the inverse logarithmic transformation to predicted values.
    - Prepared and saved the final submission file.
