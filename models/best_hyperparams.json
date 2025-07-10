@@ -1,0 +1,65 @@
+{
+    "LinearRegression": {
+        "fit_intercept": true
+    },
+    "ElasticNet": {
+        "alpha": 9.51691344743189e-05,
+        "l1_ratio": 0.8006428298945075
+    },
+    "Lasso": {
+        "alpha": 0.00011752017442446436
+    },
+    "Ridge": {
+        "alpha": 0.29859986337988237
+    },
+    "KNN": {
+        "n_neighbors": 10
+    },
+    "DecisionTree": {
+        "criterion": "poisson",
+        "max_depth": 10,
+        "min_samples_split": 14,
+        "min_samples_leaf": 6,
+        "max_features": null
+    },
+    "RandomForest": {
+        "n_estimators": 2400,
+        "criterion": "squared_error",
+        "max_depth": 29,
+        "min_samples_split": 3,
+        "min_samples_leaf": 1,
+        "max_features": "sqrt",
+        "bootstrap": false
+    },
+    "GradientBoosting": {
+        "n_estimators": 850,
+        "learning_rate": 0.019738457018923024,
+        "subsample": 0.5003465996707759,
+        "criterion": "squared_error",
+        "max_depth": 5,
+        "min_samples_split": 16,
+        "min_samples_leaf": 10,
+        "max_features": "sqrt"
+    },
+    "XGBoost": {
+        "n_estimators": 2000,
+        "learning_rate": 0.015596401815787746,
+        "max_depth": 4,
+        "gamma": 0.0032133491429722823,
+        "subsample": 0.6494095463719783,
+        "colsample_bytree": 0.663672090801464,
+        "reg_alpha": 5.097193966768103e-07,
+        "reg_lambda": 0.02243139803577737
+    },
+    "LGBM": {
+        "n_estimators": 1300,
+        "learning_rate": 0.03794576107821313,
+        "num_leaves": 660,
+        "max_depth": 2,
+        "min_child_samples": 25,
+        "subsample": 0.5645249357015483,
+        "colsample_bytree": 0.5396067423206536,
+        "reg_alpha": 0.00020007887343901406,
+        "reg_lambda": 0.000634485378674654
+    }
+}

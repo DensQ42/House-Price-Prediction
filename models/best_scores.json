@@ -1,0 +1,12 @@
+{
+    "LinearRegression": 11465120530.247257,
+    "ElasticNet": 0.114198,
+    "Lasso": 0.114161,
+    "Ridge": 0.114667,
+    "KNN": 0.161826,
+    "DecisionTree": 0.18232,
+    "RandomForest": 0.133752,
+    "GradientBoosting": 0.113829,
+    "XGBoost": 0.116735,
+    "LGBM": 0.117122
+}
